@@ -2,14 +2,34 @@
   "version": 2,
   "builds": [
     {
-      "src": "public/**/*",
+      "src": "login.html",
+      "use": "@vercel/static"
+    },
+    {
+      "src": "style.css",
+      "use": "@vercel/static"
+    },
+    {
+      "src": "images/appleStore.PNG",
+      "use": "@vercel/static"
+    },
+    {
+      "src": "images/cellphones.PNG",
+      "use": "@vercel/static"
+    },
+    {
+      "src": "images/googlePlay.PNG",
+      "use": "@vercel/static"
+    },
+    {
+      "src": "images/logo.PNG",
       "use": "@vercel/static"
     }
   ],
   "routes": [
     {
       "src": "/(.*)",
-      "dest": "/public/$1"
+      "dest": "/$1"
     }
   ]
 }
