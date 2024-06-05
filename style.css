@@ -1,0 +1,136 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: arial;
+}
+
+header {
+   
+    display:flex;
+    width:80%;
+    height:15vh;
+    align-items: center;
+    margin:auto;
+}
+
+.logo-container{
+   
+    flex:2;
+    
+}
+
+nav {
+    
+    flex:1;
+
+}
+
+.nav-links{
+    display:flex;
+    justify-content: space-around;
+    list-style: none;
+}
+
+.nav-link {
+    text-decoration: none;
+    color:gray;
+    font-weight: 550;
+    font-size:13px;
+}
+
+main{
+    width:80%;
+    height:60%;
+    margin:  auto;
+    display:flex;
+    align-items: flex-start;
+    
+    
+}
+
+.introductions {
+    flex:2;
+    margin-left:50px;
+}
+.image {
+    flex:1;
+    
+}
+.beTogether {
+    margin-top:30px;
+}
+
+.beTogether h3 {
+    color:black;
+    font-weight: 600;
+    font-size:35px;
+    margin-bottom:20px;
+}
+.simpleWay {
+    padding:5px;
+    line-height: 2rem;
+}
+.simpleWay p {
+    color:rgb(148, 143, 143);
+}
+.email-fields,.password-field{
+    margin-bottom:10px;
+}
+
+input[type="email"],input[type="password"] {
+    width:300px;
+    border:none;
+    padding:12px;
+    background:rgb(219, 217, 217);
+    opacity:0.6;
+    border-radius: 10px;
+    outline:none;
+    margin-bottom:10px;
+}
+
+
+::placeholder{
+    font-size:14;
+    color:black;
+
+}
+
+button{
+    width:100px;
+    height:50px;
+    padding:12px;
+    background:rgba(0, 119, 255, 0.856);
+    border-radius:30px;
+    outline:none;
+    border:none;
+    color:white;
+    font-weight: 1000;
+}
+.remember-me {
+    margin-top:15px;
+}
+
+input[type="checkbox"]{
+    width:35px;
+    height:18px;
+    border:none;
+    outline:none;
+    background:transparent;
+}
+
+small {
+    color:rgb(189, 185, 185);
+    font-size:15px;
+    font-weight: 100;
+}
+
+.remember-me a {
+    color:rgb(126, 123, 123);
+    text-decoration: none;
+    font-weight:400;
+    font-size:15px;
+}
